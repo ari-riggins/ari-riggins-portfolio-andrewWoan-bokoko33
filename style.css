@@ -21,6 +21,7 @@ svg{
 
 :root{
   --color-purple: #b4a8d7;
+  --color-attribution: #a29f94;
   /* Light theme variables */
   --color-text-light: #3a3a3a;
   --color-background-light: #e2dfd1;
@@ -242,6 +243,18 @@ svg{
   margin-top: 18px;
   font-size: 16px;
   color: var(--color-text);
+}
+
+.attribution-wrapper{
+  position: relative;
+  padding: 70% 5%;
+}
+
+.closing-attribution{
+  line-height: 2;
+  margin-top: 18px;
+  font-size: 16px;
+  color: var(--color-attribution);
 }
 
 /* Section Decor */
