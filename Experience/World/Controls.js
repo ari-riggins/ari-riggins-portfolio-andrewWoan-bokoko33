@@ -91,7 +91,7 @@ export default class Controls {
                 this.room.scale.set(0.103, 0.103, 0.103);
                 // this.camera.orthographicCamera.position.set(0, 6.5, 10);
                 this.camera.orthographicCamera.position.y = 8.3;
-                this.camera.orthographicCamera.position.z = 12;
+                this.camera.orthographicCamera.position.z = 12.5;
                 this.camera.orthographicCamera.rotation.x = -Math.PI/6;
                 this.room.position.set(0, 0, 0);
                 // First section -----------------------------------------

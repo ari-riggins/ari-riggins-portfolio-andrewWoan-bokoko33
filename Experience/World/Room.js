@@ -12,8 +12,8 @@ export default class Room{
         this.actualRoom = this.room.scene;
 
         this.lerp = {
-            current: 0,
-            target: 0,
+            current: -Math.PI/4,
+            target: -Math.PI/4,
             ease: 0.1,
         };
 
@@ -62,7 +62,7 @@ export default class Room{
             // console.log(e);
             this.rotation =
                 ((e.clientX - window.innerWidth / 2) * 2) / window.innerWidth;
-            this.lerp.target = this.rotation * 0.1;
+            this.lerp.target = -Math.PI/4 + this.rotation * 0.05;
         });
     }
 
