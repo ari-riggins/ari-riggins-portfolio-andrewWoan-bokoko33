@@ -238,6 +238,10 @@ svg{
   border-bottom-left-radius: 0px 0px;
 }
 
+.middle{
+  margin-left: 25%;
+}
+
 .section-intro-wrapper{
   position: relative;
   padding: 20% 5%;
@@ -344,6 +348,77 @@ svg{
   font-size: 32px;
   text-transform: uppercase;
   color: var(--color-text);
+}
+
+/* Main Section ------------------------------------------------------- */
+
+.main-section-margin{
+  height: auto;
+  width: 100%;
+}
+
+.main-section{
+  height: 900px;
+  width: 90%;
+  margin-left: 10%;
+  padding: 2% 4%;
+  margin: 0;
+  background-color: var(--color-background);
+}
+
+.middle{
+  margin: 5%;
+}
+
+.main-section-intro-wrapper{
+  position: relative;
+  padding: 8% 10%;
+  border-bottom: 2px solid var(--color-purple);
+  padding-bottom: 100px;
+}
+
+.main-section-detail-wrapper{
+  position: relative;
+  padding: 5% 5%;
+}
+
+.main-section-heading{
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.8;
+  margin-top: 64px;
+  color: var(--color-text);
+}
+
+.main-section-text{
+  line-height: 2;
+  margin-top: 18px;
+  font-size: 16px;
+  color: var(--color-text);
+}
+
+/* Section Decor */
+
+.main-section-title{
+  position: relative;
+  color: var(--color-purple);
+}
+
+.main-section-title-text{
+  display: block;
+  font-size: 50px;
+  font-weight: 500;
+  z-index: 5;
+  text-transform: uppercase;
+}
+
+.main-part{
+  width: 28%;
+  margin-right: auto;
+  float: left;
+  /* background-color: #99b51c; */
+  padding: 0 1%;
+  margin: 0 2.66%;
 }
 
 /* Media Queries ------------------------------------------------------- */

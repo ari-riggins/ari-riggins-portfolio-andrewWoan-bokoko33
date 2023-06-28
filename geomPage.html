@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/spiralIcon.PNG" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ari Riggins</title>
+  </head>
+
+  <body class="light-theme">
+    <div class="main-page">
+        <div class="main-page-wrapper">
+            <section class="mainsection main-section middle">
+                <div class="main-section-intro-wrapper">
+                  <h1 class="main-section-title">
+                    <span class="main-section-title-text">Polygon Equidecomposition</span>
+                  </h1>
+                </div>
+      
+                <div class="main-section-detail-wrapper">
+                    <div class="main-part">
+                        <p class="main-section-text">The first step in this algorithm is to triangulate the polygon. I wrote this code using Java so that I could easily visualize it. The polygons are divided first into trapezoids by first adding vertical edges from the reflex vertices and from there are divided into monotone polygons. These are much easier to triangulate.</p>
+                    </div>
+                    <div class="main-part">
+                        <p class="main-section-text">The next step was to convert each triangle into a rectangle of a standardized width. First, we transform it to any rectangle: </p>
+                        <img class="main-section-text" src="/triangle_rect.gif" width="100%">
+                    </div>
+                    <div class="main-part">
+                        <p class="main-section-text">Finally, this rectangle must be converted to the correct width. Then all of the rectangles compiled from the triangles making up the polygon are stacked together to create one large rectangle of consistent width. This process is completed for both polygons and when the resulting rectangles are the same, the algorithm is demonstrated.</p>
+                    </div>
+                </div>
+              </section>
+        </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
